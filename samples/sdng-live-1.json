@@ -1,0 +1,37 @@
+{
+  "scenario_id": "sdng-live-1",
+  "network": "studio-dev",
+  "chain_id": 61997,
+  "contract": "0x9C0Cfd624B4e406353279C473c86407964B4FF5e",
+  "release_id": "sdng-live-1",
+  "register_release": {
+    "package_name": "demo-package",
+    "package_version": "1.2.3",
+    "mode": "DUAL",
+    "license_hashes": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "obligation_mask": 2,
+    "expected_artifact_mask": 6
+  },
+  "submit_evidence": {
+    "observed_version": "1.2.3",
+    "observed_mode": "DUAL",
+    "observed_artifact_mask": 6,
+    "evidence_digest": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+  },
+  "assess_release_license_text": "This license requires a notice.",
+  "expected_readback": {
+    "status": "ASSESSED",
+    "result": "RELEASE_ENABLED",
+    "obligation_mask": 2,
+    "observed_artifact_mask": 6,
+    "package_name": "demo-package",
+    "package_version": "1.2.3",
+    "mode": "DUAL"
+  },
+  "transactions": [
+    "0xa0012be5b867551c70e41f24beea04917bff4592a3600ad06c47d56a68f00e1c",
+    "0x1cfe1e874377c2fb642065c1bb84f6cb4614fe9b19992393ed7333b40b26405a",
+    "0xad63eade3353690d3c6d44334aa132278883118ed8edb5d75b2d5d94a8583d52",
+    "0xec0408b5a3f57c56431c04f9176a6c339eeb7cc9ec634d49821a524932b14b70"
+  ]
+}

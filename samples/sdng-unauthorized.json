@@ -1,0 +1,22 @@
+{
+  "scenario_id": "sdng-unauthorized",
+  "network": "studio-dev",
+  "chain_id": 61997,
+  "contract": "0x9C0Cfd624B4e406353279C473c86407964B4FF5e",
+  "attempted_release_id": "sdng-unauthorized",
+  "attempted_register_release": {
+    "package_name": "demo-package",
+    "package_version": "1.2.3",
+    "mode": "DUAL",
+    "license_hashes": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "obligation_mask": 2,
+    "expected_artifact_mask": 6
+  },
+  "transaction": "0x4af127c678fc3c3b27e408419e4b335a8a12890e3927618561f3ccd81c3cbdab",
+  "expected_execution": "FINISHED_WITH_ERROR",
+  "expected_error": "UNAUTHORIZED_PUBLISHER",
+  "expected_readback": {
+    "attempted_release_status": "NOT_FOUND",
+    "control_release_result": "RELEASE_ENABLED"
+  }
+}
